@@ -14,12 +14,17 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaFerreteria.AccesoDatos\SistemaFerreteria.AccesoDatos.csproj" />
     <ProjectReference Include="..\SistemaFerreteria.Modelos\SistemaFerreteria.Modelos.csproj" />
     <ProjectReference Include="..\SistemaFerreteria.Utilidades\SistemaFerreteria.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
