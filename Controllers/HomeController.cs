@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SistemaFerretería.Models;
+using SistemaFerreteria.Modelos.ViewModels;
 using System.Diagnostics;
 
 namespace SistemaFerretería.Controllers

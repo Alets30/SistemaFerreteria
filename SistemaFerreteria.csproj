@@ -11,8 +11,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.15" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaFerreteria.AccesoDatos\SistemaFerreteria.AccesoDatos.csproj" />
+    <ProjectReference Include="..\SistemaFerreteria.Modelos\SistemaFerreteria.Modelos.csproj" />
+    <ProjectReference Include="..\SistemaFerreteria.Utilidades\SistemaFerreteria.Utilidades.csproj" />
   </ItemGroup>
 
 </Project>
